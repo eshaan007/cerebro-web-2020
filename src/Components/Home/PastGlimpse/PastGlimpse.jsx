@@ -7,14 +7,14 @@ const PastGlimpse = () => {
       <h1 className="gallery__title section-title">Past year Glimpses</h1>
       <div className="gallery__images">
         <div className="gallery__images__container">
-          <div className="wide" style={{backgroundImage: `url('https://unsplash.it/seed/10/1280/720')`}}></div>
-          <div className="tall" style={{backgroundImage: `url('https://unsplash.it/seed/20/1280/720')`}}></div>
-          <div className="big" style={{backgroundImage: `url('https://unsplash.it/seed/30/1280/720')`}}></div>
-          <div className="wide" style={{backgroundImage: `url('https://unsplash.it/seed/40/1280/720')`}}></div>
-          <div className="tall" style={{backgroundImage: `url('https://unsplash.it/seed/50/1280/720')`}}></div>
-          <div className="" style={{backgroundImage: `url('https://unsplash.it/seed/60/1280/720')`}}></div>
-          <div className="wide" style={{backgroundImage: `url('https://unsplash.it/seed/70/1280/720')`}}></div>
-          <div className="" style={{backgroundImage: `url('https://unsplash.it/seed/80/1280/720')`}}></div>
+          <div className="wide" style={{backgroundImage:"url('./media/botrun.png')" }}></div>
+          <div className="tall" style={{backgroundImage: "url('./media/git.png')"}}></div>
+          <div className="big" style={{backgroundImage: "url('./media/team.png')"}}></div>
+          <div className="wide" style={{backgroundImage: "url('./media/ideathon.png')"}}></div>
+          <div className="tall" style={{backgroundImage: "url('./media/director.png')"}}></div>
+          <div className="" style={{backgroundImage: "url('./media/penumbera.png')"}}></div>
+          <div className="wide" style={{backgroundImage: "url('./media/baymax.png')"}}></div>
+          <div className="" style={{backgroundImage: "url('./media/webhead.png')"}}></div>
         </div>
       </div>
     </div>
