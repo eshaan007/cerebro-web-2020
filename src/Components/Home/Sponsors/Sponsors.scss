@@ -106,11 +106,15 @@
   padding-top: 20px;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-areas: 100px;
+  // grid-template-areas: 100px;
   @media screen and (max-width: $mobile-view) {
-    padding: 5px;
+    padding-top: 1px;
     padding-left: 10px;
-    grid-gap: 0.4rem;
-    grid-template-columns: auto auto;
+    grid-gap: 0.7rem;
+  }
+  @media screen and (max-width: $small-mobile) {
+    padding: 5px;
+    padding-top: 0px;
+    grid-gap: 2.3rem;
   }
 }
