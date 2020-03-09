@@ -1,7 +1,6 @@
 import React from 'react'
 
 const TeamNames = ({teamdata, selectTeam, selectedTeam}) => {
-
   const teamnames = Object.keys(teamdata).map(teamname => {
     return (
       <p

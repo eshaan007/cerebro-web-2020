@@ -23,15 +23,15 @@ function Sponsors() {
           </div>
         </div>
       </div>
-      <div class="sponsor_wrapper">
+      <div class="sponsor_wrapper__1">
         <img
-          src="media/stickermuletransparent.png"
+          src="media/portronics.png"
           className="sponsor_img"
           alt="sponsor One"
         />
         <img
-          src="media/souledstoretransparent.png"
-          className="sponsor_img"
+          src="media/career-launcher.png"
+          className="sponsor_img__img2"
           alt="sponsor Two"
         />
         <img
@@ -39,26 +39,35 @@ function Sponsors() {
           className="sponsor_img"
           alt="sponsor Three"
         />
+        
         <img
-          src="media/souledstoretransparent.png"
-          className="sponsor_img"
-          alt="sponsor Four"
-        />
-      </div>
-      <div class="sponsor_wrapper_second_row"> 
-        <img
-          src="media/stickermuletransparent.png"
+          src="media/HE_logo.png"
           className="sponsor_img"
           alt="sponsor Five"
         />
-         <img
-          src="media/souledstoretransparent.png"
-          className="sponsor_img"
-          alt="sponsor Six"
-        />
+        </div>
+        <div class="sponsor_wrapper__2">
+          {/*<img className="sponsor_none"/> */}
+          <img
+            src="media/codechef.png"
+            className="sponsor_img__img2"
+            alt="sponsor Four"
+          />
+          <img
+            src="media/souledstoretransparent.png"
+            className="sponsor_img__img2"
+            alt="sponsor Six"
+          />
+          <img
+            src="media/inox.png"
+            className="sponsor_img__img2"
+            alt="sponsor Four"
+          />
+        </div>
+        
+        
       </div>
- 
-    </div>
+    
   );
 }
 
